@@ -1,0 +1,9 @@
+.copyright-section {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .copyright-section:hover {
+    opacity: 1;
+  }
+  

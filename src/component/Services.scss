@@ -1,0 +1,60 @@
+.Services {
+    background: wheat;
+    display: block;
+  
+    .heading {
+      
+      font-size: 6rem;
+      font-weight: bold;
+      text-align: center;
+      margin: 1rem 0; /* Adjust margin as needed */
+      padding: 1rem; /* Adjust padding as needed */
+    }
+  
+    .grid {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; /* Allow child elements to wrap into the next row */
+      justify-content: space-between; /* Adjust as needed */
+    }
+  
+    .child {
+    border: 4px solid rgb(0, 0, 0);
+    padding: 2%;
+    padding-bottom: 2%;
+    border-radius: 12px;
+    flex: 0 0 calc(300px - 2 * 1%); /* Adjust width as needed considering margin */
+    height: 370px; /* Adjust height as needed */
+    margin: 1.5%; /* Adjust margin as needed */
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth scaling */
+      &:hover {
+        transform: scale(1.1);
+      }
+      .grid-heading{
+        text-align: center;
+        font-size: 3vh;
+        font-weight:600;
+        justify-content: center;
+
+      }
+      .points{
+        text-align: center;
+        font-size: 1.7rem  ;
+      }
+
+     .grid-end
+      {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-size: 1.7rem  ;
+      }
+      
+  .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    }
+  }
+  
